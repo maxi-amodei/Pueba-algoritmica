@@ -29,6 +29,11 @@ const rokket = (array) => {
   });
 }
 
+const contacts = [
+  { firstName: 'Juanito', lastName: 'Rokket' },
+  { firstName: 'James', lastName: 'Bond' },
+  { firstName: 'Harry', lastName: 'Potter' }
+]
 console.log(rokket(contacts)) // this outputs ['Rokket', 'Bond', 'Potter']
 
 // 5. Unique numbers 
